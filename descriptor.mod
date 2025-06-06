@@ -1,7 +1,7 @@
-version="3.14.1"
+name="Gigastructural Engineering & More (Shane)"
+picture="thumbnail.png"
 tags={
-	"Gameplay"
+    "Gameplay"
+    "Megastructures"
 }
-name="Gigastructural Engineering & More (3.14)"
-supported_version="v3.14.*"
-remote_file_id="1121692237"
+supported_version="4.0.*"
