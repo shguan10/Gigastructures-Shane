@@ -19,9 +19,7 @@ inline_script = {
         engineering_research = @[ 200 * giga_$class$_star_production_mult ]
     "
 
-    country_modifier = {
-      all_technology_research_speed = 0.10
-    }
+    country_modifier = "all_technology_research_speed = 0.10"
 
     upkeep = "
         alloys = @[ 20 * giga_$class$_star_upkeep_mult ]

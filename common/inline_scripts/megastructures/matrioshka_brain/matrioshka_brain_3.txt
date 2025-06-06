@@ -23,9 +23,7 @@ inline_script = {
         alloys = @[ 40 * giga_$class$_star_upkeep_mult ]
     "
 
-    country_modifier = {
-      all_technology_research_speed = 0.15
-    }
+    country_modifier = "all_technology_research_speed = 0.15"
 
     on_complete = "
         from = { country_event = { id = giga_dialog.504 } }	# Notification
