@@ -668,6 +668,26 @@ planet_pops = {
 		upkeep
 	}
 
+  triggered_produces_modifier = {
+		key = planet_pops_robotics
+		modifier_types = {
+			mult
+		}
+		trigger = {
+			is_robot_pop_group = yes
+		}
+	}
+
+  triggered_produces_modifier = {
+		key = planet_pops_cyborgs
+		modifier_types = {
+			mult
+		}
+		trigger = {
+			has_trait = trait_cybernetic
+    }
+  }
+
 	triggered_upkeep_modifier = {
 		key = planet_pops_robotics
 		modifier_types = {
