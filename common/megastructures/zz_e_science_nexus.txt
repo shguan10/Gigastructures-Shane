@@ -248,7 +248,6 @@ think_tank_3 = {
 	upgrade_from = { think_tank_2 }
 	prerequisites = { "tech_science_nexus" }
 	show_prereqs = yes
-	country_modifier = { all_technology_research_speed = 0.15 }
 
 	outliner_trigger = {
 		exists = owner
