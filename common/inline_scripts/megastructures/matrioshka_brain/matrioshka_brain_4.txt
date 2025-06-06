@@ -25,8 +25,8 @@ inline_script = {
 
     country_modifier = "
       all_technology_research_speed = 0.20
-      planet_pops_robotics_produces_mult = 0.05
-      planet_pops_cyborgs_produces_mult = 0.05
+      cyborg_pop_bonus_workforce_mult = 0.05
+      robotic_pop_bonus_workforce_mult = 0.05
       country_unity_produces_mult = 0.05
     "
 
