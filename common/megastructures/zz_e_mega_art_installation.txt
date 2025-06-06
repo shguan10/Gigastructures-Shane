@@ -259,7 +259,10 @@ mega_art_installation_4 = {
 	prerequisites = { "tech_mega_art" }
 	show_prereqs = no
 	possible = { from = { has_ancrel = yes } }
-	country_modifier = { planet_amenities_mult = 0.2 }
+	country_modifier = {
+		planet_amenities_mult = 0.2
+		planetary_ascension_cost_mult = -0.2
+	}
 
 	outliner_trigger = {
 		exists = owner

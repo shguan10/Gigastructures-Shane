@@ -270,7 +270,9 @@ interstellar_assembly_restored = {
 	upgrade_from = { interstellar_assembly_ruined }
 	country_modifier = {
 		diplo_weight_mult = 0.40
+		empire_size_mult = -0.10
 		envoys_add = 2
+		# enables triggered_opinion_of_interstellar_assembly_4
 	}
 
 	outliner_trigger = {

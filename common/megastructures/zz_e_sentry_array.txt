@@ -351,5 +351,7 @@ spy_orb_restored = {
 	}
 	country_modifier = {
 		add_base_country_intel = 40
+		ship_windup_mult = -0.2
+		intel_decryption_add = 2
 	}
 }
