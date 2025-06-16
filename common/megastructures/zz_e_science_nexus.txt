@@ -267,6 +267,9 @@ think_tank_3 = {
 			physics_research = 300
 		}
 	}
+
+	country_modifier = { all_technology_research_speed = 0.15 }
+
 	on_build_start = {
 		giga_ai_savings_withdraw = { CATEGORY = important RESOURCE = alloys AMOUNT = 15000 }
 		giga_ai_savings_withdraw = { CATEGORY = important RESOURCE = unity  AMOUNT = @giga_big_mega_unity_cost }

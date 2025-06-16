@@ -217,7 +217,10 @@ mega_art_installation_3 = {
 	upgrade_from = { mega_art_installation_2 }
 	prerequisites = { "tech_mega_art" }
 	show_prereqs = yes
-	country_modifier = { planet_amenities_mult = 0.15 }
+	country_modifier = {
+		planet_amenities_mult = 0.15
+		planetary_ascension_cost_mult = -0.1
+	}
 
 	outliner_trigger = {
 		exists = owner
@@ -311,7 +314,10 @@ mega_art_installation_restored = {
 	place_entity_on_planet_plane = no
 	entity_offset = { x = -27 y = -27 }
 	upgrade_from = { mega_art_installation_ruined }
-	country_modifier = { planet_amenities_mult = 0.15 }
+	country_modifier = {
+		planet_amenities_mult = 0.15
+		planetary_ascension_cost_mult = -0.1
+	}
 
 	outliner_trigger = {
 		exists = owner

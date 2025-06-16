@@ -219,6 +219,7 @@ interstellar_assembly_4 = {
 	country_modifier = {
 		diplo_weight_mult = 0.40
 		envoys_add = 2
+    empire_size_mult = -0.10
 	}
 
 	outliner_trigger = {
