@@ -248,7 +248,7 @@ interstellar_assembly_4 = {
 		diplo_weight_mult = 0.40
 		empire_size_mult = -0.10
 		envoys_add = 2
-		# enables triggered_opinion_of_interstellar_assembly_4
+    empire_size_mult = -0.10
 	}
 	outliner_trigger = {
 		exists = owner

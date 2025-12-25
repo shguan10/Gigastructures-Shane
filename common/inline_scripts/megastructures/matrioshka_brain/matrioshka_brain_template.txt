@@ -33,6 +33,10 @@ resources = {
     }
 }
 
+country_modifier = {
+  $country_modifier$
+}
+
 on_build_start = {
     giga_ai_savings_withdraw = { 
         CATEGORY = important 

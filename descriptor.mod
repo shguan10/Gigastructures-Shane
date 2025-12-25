@@ -1,7 +1,7 @@
-version="4.0.*"
+name="Gigastructural Engineering & More (Shane)"
+picture="thumbnail.png"
 tags={
-	"Gameplay"
+    "Gameplay"
+    "Megastructures"
 }
-name="Gigastructural Engineering & More (4.0)"
-supported_version="v4.0.*"
-remote_file_id="1121692237"
+supported_version="4.0.*"
